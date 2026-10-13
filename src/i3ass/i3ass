@@ -35,7 +35,7 @@ main(){
 
   if command -v dmenu >/dev/null
     then dmenu -v 2>&-
-    else "WARNING: command $cmd not found"
+    else "WARNING: command dmenu not found"
   fi
 
   echo
